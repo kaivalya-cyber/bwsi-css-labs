@@ -8,9 +8,16 @@ with your name. Then, save the code, add it to the staging area, and commit it t
 def main():
     print("Hello World!")
 
-    name = "kaivalya singh" # TODO: Insert your name between the double quotes
+    name = "kaivalya singh"  # TODO: Insert your name between the double quotes
 
     print(f"{name}, Welcome to the CSS course!")
+
+    willigetintobwsi = True
+    if willigetintobwsi:
+        print("Congratulations! You got into BWSI!")
+    else:
+        print("Sorry, you did not get into BWSI. Better luck next time!")
+
 
 if __name__ == "__main__":
     main()
